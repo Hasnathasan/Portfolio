@@ -11,6 +11,7 @@
     background-image: url(../images/header_bg.png), url(../images/developer.png);
     background-repeat: no-repeat;
     background-position: right bottom, left;
+    border-radius: 0 0 0 10px;
 }
 
 /* Navbar menu */
@@ -115,7 +116,7 @@ button a{
 .about-sec{
     background: #FFF8F3;
     border-radius: 10px;
-    margin-top: 150px;
+    margin: 150px 0;
     padding: 130px 150px;
     text-align: center;
 }
@@ -134,4 +135,44 @@ button a{
 .info-container{
     display: flex;
     justify-content: space-around;
+}
+
+/* What-i-do sec */
+
+
+.what-i-do > h2{
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+}
+.what-i-do > p{
+    margin-bottom: 50px;
+    font-size: 18px;
+    color: #757575;
+    text-align: center;
+}
+.skills{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+.skill{
+    width: 270px;
+    padding: 20px 40px 20px 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+}
+.skill > img,h3,p{
+    margin-bottom: 20px;
+}
+.skill h3{
+    font-size: 20px;
+    color: #181818;
+}
+.skill p{
+    font-size: 16px;
+    color: #757575;
+    line-height: 25px;
 }
