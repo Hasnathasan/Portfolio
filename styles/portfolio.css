@@ -68,6 +68,7 @@ button a{
     margin: 0 0 0 150px;
     align-items: center;
     justify-content: space-between;
+    position: relative;
 }
 
 .intro-b1 h3{
@@ -87,6 +88,7 @@ button a{
     color: #757575;
     margin-bottom: 20px;
 }
+
 .btn2{
     background: #ffffff;
     border-radius: 5px;
@@ -101,6 +103,7 @@ button a{
 .btn2 a i{
     color: #FD6E0A;
 }
+
 .intro-b2 img{
     width: 500px;
 }
@@ -186,7 +189,7 @@ button a{
     margin-bottom: 120px;
     font-weight: 700;
     font-size: 35px;
-    color: #181818;
+    color: #131212;
 }
 .resume-container{
     display: flex;
@@ -197,7 +200,7 @@ button a{
     font-weight: 700;
     font-size: 30px;
     margin-bottom: 30px;
-    color: #474747;
+    color: #1f1f1f;
 }
 .resume-b1{
     margin-bottom: 40px;
