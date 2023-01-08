@@ -273,3 +273,18 @@ button a{
 .fsec-2 .btn-primary:hover{
     cursor: pointer;
 }
+
+
+@media only screen and (max-width: 768px) {
+    .header{
+        
+    }
+    .skills{
+        flex-direction: column;
+        align-items: center;
+        margin-left: 10px;
+    }
+    .skill{
+        width: 300px;
+    }
+  }
