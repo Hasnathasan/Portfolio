@@ -157,7 +157,8 @@ button a{
 }
 .skills{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
     gap: 15px;
 }
 .skill{
@@ -275,16 +276,79 @@ button a{
 }
 
 
-@media only screen and (max-width: 768px) {
+.hide{
+    display: none;
+}
+
+@media screen and (max-width: 576px){
     .header{
-        
+        margin: 0;
+        background-image: none;
     }
-    .skills{
+    .introduction-menu{
+        margin: 0;
+        gap: 20px;
+    }
+    .introduction-menu .btn-primary{
+        margin: 20px 0;
+    }
+    .intro-b2 img{
+        width: 350px;
+    }
+    .what-i-do>p{
+        padding: 20px;
+        text-align: justify;
+    }
+    .nav-menu ul li{
+        margin-right: 25px;
+    }
+    .skills,.info-container,.resume-container,.nav-menu,.introduction-menu{
         flex-direction: column;
-        align-items: center;
-        margin-left: 10px;
+        padding: 20px;
     }
     .skill{
-        width: 300px;
+        width: 350px;
     }
-  }
+    .about-sec{
+        padding: 20px;
+    }
+    .about-sec > p{
+        text-align: left;
+    }
+    .fcontent-container{
+        flex-direction: column;
+        width: 100%;
+    }
+    .footer{
+        padding-bottom: 80px;
+    }
+    .fsec-1,.fsec-2{
+        width: 100%;
+        padding: 15px;
+    }
+
+}
+@media screen and (min-width: 577px) and (max-width: 992px){
+    .skills{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .skill{
+        width: 45%;
+    }
+    .resume-container{
+        padding: 20px;
+    }
+    .about-sec{
+        padding: 55px;
+    }
+    .about-sec > p{
+        text-align: justify;
+    }
+    .fcontent-container{
+        width: 100%;
+    }
+    .fsec-1,.fsec-2{
+        padding: 30px;
+    }
+}
